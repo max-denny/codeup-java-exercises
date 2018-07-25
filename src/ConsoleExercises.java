@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ConsoleExercises {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
 
        //int userInput;
         String userInput1;
@@ -20,4 +20,5 @@ public class ConsoleExercises {
                "\nYour second word is: --> \"" + userInput2 + "\" <--" +
                "\nYour third word is: --> \"" + userInput3 + "\" <--");
     }
+    */
 }
