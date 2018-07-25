@@ -12,8 +12,8 @@ public class ConsoleExercises {
 
        System.out.print("Enter three words: ");
        userInput1 = sc.next();
-       userInput2 = sc.next();
-       userInput3 = sc.next();
+       //userInput2 = sc.next();
+       //userInput3 = sc.next();
 
 
        System.out.println("Your first word is: --> \"" + userInput1 + "\" <-- " +
