@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
-public class MethodsExercises {
-
-    static Scanner scanner = new Scanner(System.in);
-
+public class MethodsExercises {static Scanner scanner = new Scanner(System.in);
+/*
     static int userInput;
 
     public static int addition(int n1, int n2) {
@@ -38,6 +36,15 @@ public class MethodsExercises {
 
     }
 
+    public static void buildFactorials(int factor) {
+        System.out.println("Enter a number between 1 and 10");
+        userInput = scanner.nextInt();
+        if (userInput < 1 || userInput > 10) {
+            System.out.println("Hey, that number is not between 1 and 10");
+            return buildFactorials();
+        }
+    }
+
 
     public static void main(String[] args) {
 
@@ -50,8 +57,9 @@ public class MethodsExercises {
        // System.out.print("Enter a number between 1 and 10: ");
         //int userInput = getInteger(1,10);
         System.out.println(getInRange(1, 10));
+        System.out.println(buildFactorials(4));
 
     }
-}
+*/}
 
 
