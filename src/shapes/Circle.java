@@ -8,12 +8,17 @@ public class Circle {
         this.radius = radius;
         circleCount++;
     }
-    public double getArea() {
+
+
+    public double getArea(){
         return Math.PI * radius * radius;
     }
+
+
     public double getCircumference() {
         return Math.PI * 2 * radius;
     }
+
 
     public static int getCircleCount() {
         return circleCount;
