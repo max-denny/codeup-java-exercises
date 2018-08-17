@@ -2,7 +2,7 @@ package shapes;
 import util.Input;
 
 
-    public class CircleApp {
+    public class CircleApp {/*
 
         public static void main(String[] args) {
             Input input = new Input();
@@ -18,5 +18,6 @@ import util.Input;
             } while (input.yesNo());
             System.out.printf("%d circles were created.", Circle.getCircleCount());
         }
+        */
     }
 
