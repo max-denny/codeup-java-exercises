@@ -1,4 +1,6 @@
-public class Student {
+package grades;
+
+public class Student {/*
 
     private String name;
     private ArrayList<Interger> grade;
@@ -23,3 +25,5 @@ public double getGradeAverage() {
     public static void main(String[] args) {
         Student student = new Student(Sally);
     }
+
+    */}
