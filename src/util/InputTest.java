@@ -2,7 +2,7 @@ package util;
 import util.Input;
 
 
-public class InputTest {
+public class InputTest {/*
 
 
     public static void main(String[] args) {
@@ -14,5 +14,6 @@ public class InputTest {
 
 
     }
+    */
 
 }

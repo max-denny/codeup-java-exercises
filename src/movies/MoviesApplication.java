@@ -3,6 +3,8 @@ import util.Input;
 
 public class MoviesApplication {
 
+    /*
+
 
     public static void main(String[] args) {
 
@@ -75,5 +77,6 @@ public class MoviesApplication {
 
         } while (i != 0);
     }
+    */
 }
 

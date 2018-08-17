@@ -5,7 +5,7 @@ package util;
 
 import java.util.Scanner;
 
-public class Input {
+public class Input {/*
     //This line creates new scanner(from Java class library) that we name 'scan'.
     private Scanner scan = new Scanner(System.in);
 
@@ -20,7 +20,6 @@ public class Input {
         //This line returns what the string the user provided in lower case w/o outside white space//
         return this.scan.nextLine().toLowerCase().trim();
     }
-
 
 
     //RETURNS TRUE IF THE USER ENTERS YES OR EQUIVALENT//
@@ -49,7 +48,7 @@ public class Input {
 
         if (userInput < min || userInput > max) {
             System.err.println("Number out of range");
-            getInt(min,max);
+            getInt(min, max);
         }
 
         return userInput;
@@ -59,47 +58,73 @@ public class Input {
 
 
     // GET AN INTEGER VALUE FROM THE USER//
-    public int getInt(){
-        return Integer.parseInt(this.getString("Give me a number"));
+    public int getInt() {
 
-    }
+        String input = getString() {
+            return Integer.parseInt(this.getString("Give me a number"));
 
+            try {
+                Integer.valueOf(input);
 
-    // GET A DOUBLE VALUE FROM THE USER//
+            } catch (NumberFormatException e) {
+                System.out.println("Must input an integer");
+                return getInt();
+            }
 
-    public double getDouble(double min, double max){
-        double userInput = Double.parseDouble(this.getString("Give me a a decimal" +
-                "number between " + min + " and " + max));
-
-        if(userInput < min || userInput > max){
-            System.err.println("Decimal number out of range");
-            userInput = getDouble(min,max);
+        }
         }
 
-        return userInput;
+
+        // GET A DOUBLE VALUE FROM THE USER//
+
+        public double getDouble ( double min, double max){
+            double userInput = Double.parseDouble(this.getString("Give me a a decimal" +
+                    "number between " + min + " and " + max));
+
+            if (userInput < min || userInput > max) {
+                System.err.println("Decimal number out of range");
+                userInput = getDouble(min, max);
+            }
+
+            return userInput;
+        }
+
+        public double getDouble () {
+            return Double.parseDouble(this.getString("Give me a decimal number"));
+        }
+
+
+
+        public double getDouble () {
+            String input = getString();
+
+            try {
+                return Double.valueOf(input);
+            } catch (NumberFormatException e) {
+                System.out.println("Input must be number.");
+                return getDouble();
+            }
+        }
+
+
+        public static void main (String[]args){
+            Input input1 = new Input();
+
+
+            System.out.println(input1.getString("Type your name in any format: "));
+
+            System.out.println(input1.yesNo());
+
+            System.out.println(input1.getInt(5, 6));
+
+            System.out.println(input1.getDouble(2, 20));
+
+            System.out.println(input1.getDouble());
+
+        }
+
     }
-
-    public double getDouble(){
-        return Double.parseDouble(this.getString("Give me a decimal number"));
-    }
-
-
-    public static void main(String[] args) {
-        Input input1 = new Input();
-
-
-        System.out.println(input1.getString("Type your name in any format: "));
-
-        System.out.println(input1.yesNo());
-
-        System.out.println(input1.getInt(5, 6));
-
-        System.out.println(input1.getDouble(2, 20));
-
-        System.out.println(input1.getDouble());
-
-    }
-
+    */
 }
 
 //---------------------------------------------------------------------------------//
